@@ -4,6 +4,7 @@ brew install bash-completion
 brew install dnsmasq
 brew install docker-completion
 brew install docker-compose-completion
+brew install graphviz
 brew install xhyve
 brew install docker-machine-driver-xhyve # used for minishift
 ls -l /usr/local/opt/docker-machine-driver-xhyve/bin/docker-machine-driver-xhyve|grep "root  wheel" \
@@ -12,6 +13,7 @@ find /usr/local/opt/docker-machine-driver-xhyve/bin/docker-machine-driver-xhyve 
   |grep docker-machine-driver-xhyve \
   ||sudo chmod u+s /usr/local/opt/docker-machine-driver-xhyve/bin/docker-machine-driver-xhyve
 brew install git
+brew cask install asciidocfx
 brew cask install citrix-receiver
 brew cask install docker
 brew cask install evernote
