@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 brew doctor ||/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-brew install bash-completion
 brew install dnsmasq
 brew install docker-completion
 brew install docker-compose-completion
@@ -30,4 +29,5 @@ brew cask install virtualbox
 # needs virtualbox and xhyve
 brew cask install minishift
 
+brew install bash-completion
 grep /usr/local/etc/bash_completion ~/.bash_profile ||echo "[ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion" >> ~/.bash_profile
