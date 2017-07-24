@@ -12,9 +12,12 @@ find /usr/local/opt/docker-machine-driver-xhyve/bin/docker-machine-driver-xhyve 
   |grep docker-machine-driver-xhyve \
   ||sudo chmod u+s /usr/local/opt/docker-machine-driver-xhyve/bin/docker-machine-driver-xhyve
 brew install git
+brew cask install citrix-receiver
 brew cask install docker
+brew cask install evernote
 brew cask install google-chrome
 brew cask install intellij-idea
+brew cask install istat-menus
 brew cask install virtualbox
 
 # needs virtualbox and xhyve
