@@ -13,14 +13,18 @@ find /usr/local/opt/docker-machine-driver-xhyve/bin/docker-machine-driver-xhyve 
   |grep docker-machine-driver-xhyve \
   ||sudo chmod u+s /usr/local/opt/docker-machine-driver-xhyve/bin/docker-machine-driver-xhyve
 brew install git
+brew tap caskroom/drivers
 brew cask install asciidocfx
 brew cask install citrix-receiver
+brew cask install divvy
 brew cask install docker
 brew cask install evernote
 brew cask install google-chrome
 brew cask install intellij-idea
 brew cask install istat-menus
 brew cask install microsoft-office
+brew cask install sonos
+brew cask install synology-cloud-station-drive
 brew cask install virtualbox
 
 # needs virtualbox and xhyve
