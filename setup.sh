@@ -31,3 +31,34 @@ brew cask install minishift
 
 brew install bash-completion
 grep /usr/local/etc/bash_completion ~/.bash_profile ||echo "[ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion" >> ~/.bash_profile
+
+
+brew tap decors/powerline-shell
+brew install --HEAD powerline-shell
+grep "powerline-shell.py" ~/.bash_profile \
+  ||cat >> ~/.bash_profile << 'EOF'
+
+    # powerline shell
+    function _update_ps1() {
+      PS1="$($(brew --prefix powerline-shell)/powerline-shell.py $? 2> /dev/null)"
+    }
+
+    if [ "$TERM" != "linux" ]; then
+      PROMPT_COMMAND="_update_ps1; $PROMPT_COMMAND"
+    fi
+EOF
+brew tap caskroom/fonts
+brew cask install font-anonymice-powerline
+brew cask install font-consolas-for-powerline
+brew cask install font-dejavu-sans-mono-for-powerline
+brew cask install font-droid-sans-mono-for-powerline
+brew cask install font-fira-mono-for-powerline
+brew cask install font-inconsolata-dz-for-powerline
+brew cask install font-inconsolata-for-powerline
+brew cask install font-inconsolata-g-for-powerline
+brew cask install font-liberation-mono-for-powerline
+brew cask install font-menlo-for-powerline
+brew cask install font-meslo-for-powerline
+brew cask install font-monofur-for-powerline
+brew cask install font-roboto-mono-for-powerline
+brew cask install font-source-code-pro-for-powerline
