@@ -18,6 +18,7 @@ brew cask install evernote
 brew cask install google-chrome
 brew cask install intellij-idea
 brew cask install istat-menus
+brew cask install microsoft-office
 brew cask install virtualbox
 
 # needs virtualbox and xhyve
