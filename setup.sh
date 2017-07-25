@@ -4,6 +4,7 @@ brew install dnsmasq
 brew install docker-completion
 brew install docker-compose-completion
 brew install graphviz
+brew install gpg
 brew install xhyve
 brew install docker-machine-driver-xhyve # used for minishift
 ls -l /usr/local/opt/docker-machine-driver-xhyve/bin/docker-machine-driver-xhyve|grep "root  wheel" \
