@@ -25,6 +25,7 @@ brew cask install google-chrome
 brew cask install intellij-idea
 brew cask install istat-menus
 brew cask install iterm2
+brew cask install java
 brew cask install microsoft-office
 brew cask install sonos
 brew cask install synology-cloud-station-drive
