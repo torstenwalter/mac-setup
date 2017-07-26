@@ -15,6 +15,7 @@ find /usr/local/opt/docker-machine-driver-xhyve/bin/docker-machine-driver-xhyve 
   ||sudo chmod u+s /usr/local/opt/docker-machine-driver-xhyve/bin/docker-machine-driver-xhyve
 brew install git
 brew tap caskroom/drivers
+brew cask install atom
 brew cask install asciidocfx
 brew cask install citrix-receiver
 brew cask install divvy
