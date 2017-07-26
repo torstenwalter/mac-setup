@@ -36,7 +36,7 @@ brew install bash-completion
 grep /usr/local/etc/bash_completion ~/.bash_profile ||echo "[ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion" >> ~/.bash_profile
 
 
-brew tap decors/powerline-shell
+brew tap torstenwalter/powerline-shell
 brew install --HEAD powerline-shell
 grep "powerline-shell.py" ~/.bash_profile \
   ||cat >> ~/.bash_profile << 'EOF'
