@@ -43,7 +43,7 @@ grep "powerline-shell.py" ~/.bash_profile \
 
     # powerline shell
     function _update_ps1() {
-      PS1="$($(brew --prefix powerline-shell)/powerline-shell.py --cwd-max-depth 4 $? 2> /dev/null)"
+      PS1="$(/usr/local/opt/powerline-shell/powerline-shell.py --cwd-max-depth 4 $? 2> /dev/null)"
     }
 
     if [ "$TERM" != "linux" ]; then
