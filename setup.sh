@@ -5,6 +5,7 @@ brew install docker-completion
 brew install docker-compose-completion
 brew install graphviz
 brew install gpg
+brew install maven
 brew install ruby
 brew install xhyve
 brew install docker-machine-driver-xhyve # used for minishift
