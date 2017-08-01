@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 brew doctor ||/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+brew install coreutils
 brew install dnsmasq
 brew install docker-completion
 brew install docker-compose-completion
@@ -23,6 +24,7 @@ brew cask install divvy
 brew cask install docker
 brew cask install evernote
 brew cask install google-chrome
+brew cask install hipchat
 brew cask install intellij-idea
 brew cask install istat-menus
 brew cask install iterm2
