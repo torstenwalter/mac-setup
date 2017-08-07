@@ -16,6 +16,7 @@ find /usr/local/opt/docker-machine-driver-xhyve/bin/docker-machine-driver-xhyve 
   |grep docker-machine-driver-xhyve \
   ||sudo chmod u+s /usr/local/opt/docker-machine-driver-xhyve/bin/docker-machine-driver-xhyve
 brew install git
+brew install wget
 brew tap caskroom/drivers
 brew cask install atom
 brew cask install asciidocfx
