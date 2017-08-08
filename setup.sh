@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 brew doctor ||/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+brew install cloudfoundry/tap/cf-cli
 brew install coreutils
 brew install dnsmasq
 brew install docker-completion
