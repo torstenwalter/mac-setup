@@ -8,6 +8,7 @@ tap "homebrew/services"
 tap "torstenwalter/powerline-shell"
 cask "java"
 brew "bash-completion"
+brew "bosh-cli"
 brew "coreutils"
 brew "dnsmasq", restart_service: true
 brew "docker-completion"
